@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>2022tjmath18</title>
+      <link href="/2022/06/19/2022tjmath18/"/>
+      <url>/2022/06/19/2022tjmath18/</url>
+      
+        <content type="html"><![CDATA[<p>yysy<br>今年的网格比去年简单太多了(来自去年考生的哀嚎)<br>下面就稍微提供一些参考思路吧<br>题目如下<br><img src="/1.jpg" alt="题目"><br>首先，我们先大概画个示意图观察一下<br><img src="/2.jpg" alt="示意图"><br>很显然，三角形BMN是等腰直，那么进而可以联想到“手拉手”模型，也就是说，我们需要再构造一个等腰直。考虑到要尽量和现有的线有关系，可以连接BF，形成的三角形BFN是一个直角三角形，方便后续找M点时画出FN的对应线段<br><img src="/3.jpg" alt="连接BF"><br>找到F的对应点，记为G<br><img src="/4.jpg" alt="找到点G"><br>此时可以发现BG垂直于GM，而M又在射线PD上，所以只需找到过G且与BG垂直的线段，与PD的交点即为M<br>连接EG交PD于M<br><img src="/5.jpg" alt="连接EG"><br>这时M已经找到，只需要找出N的位置。题目中的圆还没有用过，所以圆肯定与N点位置的确定有关<br><img src="/6.jpg" alt="确定点N"><br>分别设BM、BN交圆与点R、Q，角RBQ为直角，因为直角所对的弦为直径，即RQ为直径，而R已知，所以只需找到圆心O即可确定点Q位置，进而找到点N<br>连接AC交格线于点O，连接RO并延长交圆于点Q，连接BQ并延长，交EF于点N，即为所求<br>下面是擦掉了多余线段的作图<br><img src="/7.jpg" alt="答案"><br>作图语言：取格点G，连接EG交射线PD于点M，连接AC交格线于点O，则点O为圆心，连接BM交圆O于点R，连接RO并延长，交圆O于点Q，连接BQ并延长，交射线PF于点N，则点M、N即为所求<br>感谢阅读，预祝各位考生取得圆满成功</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 天津 </tag>
+            
+            <tag> 中考 </tag>
+            
+            <tag> 数学 </tag>
+            
+            <tag> 网格题 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>2018---2022</title>
       <link href="/2022/06/18/kedaibiao/"/>
       <url>/2022/06/18/kedaibiao/</url>
@@ -66,7 +97,7 @@
       <link href="/2022/04/22/test/"/>
       <url>/2022/04/22/test/</url>
       
-        <content type="html"><![CDATA[<script src=/js/crypto-js.js></script><script>function doDecrypt (pwd, onError) {console.log('in doDecrypt');const txt = document.getElementById('enc_content').innerHTML;let plantext;try {const bytes = CryptoJS.AES.decrypt(txt, pwd);var plaintext = bytes.toString(CryptoJS.enc.Utf8);} catch(err) {if(onError) {onError(err);}return;}document.getElementById('enc_content').innerHTML = plaintext;document.getElementById('enc_content').style.display = 'block';document.getElementById('enc_passwd').style.display = 'none';if(typeof MathJax !== 'undefined') {MathJax.Hub.Queue(['resetEquationNumbers', MathJax.InputJax.TeX],['PreProcess', MathJax.Hub],['Reprocess', MathJax.Hub]);}}</script><div id="enc_content" style="display:none">U2FsdGVkX19kR2IZLN/Ue2HfrRYc2wJWeLMRsJKQd5QNCpN93BM5rdxYMuhfb0M8X5fvCxnL6JUYfoHhOuAxuGm3V64ucpY+R1IYck3tfnLXTLq11d7oreCAA+jQLGKDtm0MCh83Q9pvHHpGUIa5Y4tLW2wlyadXrZYhkp9BqXvkbUUpaK8qqQbzxAl9Y1FX103qVPbzkMoXJVKNJteMpu3DDNzZ+/cD390MY1JWXdIR3iO5k00zLTJ0cv8JZ9g4O2oJnyDV5zP/jfWNY+XXUFh/SHAMHTDB1e8EP2tfcwJPnffLsZO0Z7mxMsid/d5jlTVYXaF59baPmTb4PQiq1LpXOBdCaVmDlQaWFl/ctfqvCrZdrnnyxBXyz5vTOQXcNeiV/w8jXthz+IJFbebWcaLm4JJyCRVHjxS11Itj+AXqEOtELX5fABHb49C8JgaRzn5tcvHwbKD6NsRIwYIq7THLT1MzmWHYISN+P1MOPwslxw6YT/LUWdzfbCMYmA4O+LKhRMnoMZDcDjt05OoPwbgJbI1T0NvTKha7NnDRkD/Yy7kuDLbpLBFaUYGXnEvvka9GMiHH+ZjsnMQ31ASHCJmiVrTuQ62nDLD8NvdZUUODJDwB4P0y4Eda4ZcY3G3ett52qT9ug4oRNRzHnvLZ/tEUJluVjtMAqxGKVl59+G3v0ljC/UtS+5csfcSK6hQCoJUwvNwsD4i4HGyWesh4wmvqV2X74M+CEXpYbRZDLRNWiKUPbHTWjeHG4rbpi01I2CY2a7RjV8nFCV6ENw4zh1iNaZfW5lmCCxnuomuNYDqi9eAUFl5E45LoMjuPEpyRXF1KrFLYGyLk0WJo2ctyCc/Mh+eBt5/5bTfX4xRLoCTMJ/GX50pdDPlIZbsPfQ/JTS9rWKHVdhJ32ykR/MMGqoUvHpepeGMxii4AmzITymzEsaSsBCHvC3YcitMj4Sl6t4xpaFjbb7vdHpInZP3NDPAVrLkDwKXGkybTHTUGtjwUoPCUUyOKNi4GiKfw5s2hG57FFVI7Oa5BwF4W1/oj+DRpsZfC7/+oohW5f/2dxCBnOt2AqH9j8wW2pBL7KuT68QpI9WUFvub62+UwVmf7xkeLzCNhm/BSuZj9LXYjy7DNRprq5w/DlUW05J0OEKe4gH1Cpb/f6iIv9i7ytV0NeL6Ok8XNzLosrYf2wR2GwFOMInuwjb4fRym2J58F5JlsDpNErxtXEckOl443vX0bBOL7oR9O8n3SHfwP48FUrf8SLL68OcCFlLnz3rFGctWdG3KFBA+f+ITlTTiqaEtpg+pPsY67egfoexwov6A+Uprf/vKontR3jATdPOt9Ww9lx+C7GmDlPQUsKQybq5/WxFgXHX+McZ6x4xJ5MFE2GgTdBeAZtgTlhAmQceFy70Xq3l5j/U/DQf4K+dk6QfTBl1TNAe6GIf6vvBGtGcjIof/WNEqRELHupEsBMHfQzRs9RIqiGVXDVodCsX6m+UgwfiukjdewSKMZ6E85NWobYP5nH28tCmiMHfHZ3k69kzG1KHf++4Sg/e6Unl/B+7W94fhWx6RBXY7HBTxJPmJyHT4O9jLpCBVIftefkZmk9v/pIKXl2IBUTY90LO4GCFBHstG64ixPzL4v0iP+TKaCZKH7Moh8KS+pg/pjth+hpkIZHtaHWnwSHAdOyuTagiIpAPVdhLH0AAp8Vs9Dwi8e6GdJlTUjkct63KM5ZgUIhPR1Xo2kR4w0ZQYHI1RTRxWtPFv18IeupzG7t+m+kWxIKbR9P4Yq4b/4nefyXJ+epnveB4Y/AsX8CD83BvfC+2EX4PuzLAKL0iGIuQx/rdZFQRnHB+x18iaD2PeCdKW0vdwVDhXKN0hr6BWbxNpcM3ZKkXj/tgoxiSOKkAWVCWVX7zR52FDaTF19NQ4t/9FHcu9su8Yob2d+FbZzTGhsS9BjT4hDiZ2WAY6XsMqsgvjJk9o=</div><div id="enc_passwd"> <input id="enc_pwd_input" type="password" style="border-radius: 5px;border-style: groove;height: 30px;width: 50%;cursor: auto;font-size: 102%;color: currentColor;outline: none;text-overflow: initial;padding-left: 5px;" onkeydown="if (event.keyCode == 13) { decrypt(); return false;}"> <input type="submit" value="解&nbsp;密" onclick="decrypt()" style="width: 58px;height: 34px;border-radius: 5px;background-color: white;border-style: solid;color: currentColor;"><div id="enc_error" style="display: inline-block;color: #d84527;margin-left: 10px"></div><script>var onError = function(error) {document.getElementById("enc_error").innerHTML = "password error!"};function decrypt() {var passwd = document.getElementById("enc_pwd_input").value;console.log(passwd);doDecrypt(passwd, onError);}</script></div>]]></content>
+        <content type="html"><![CDATA[<script src=/js/crypto-js.js></script><script>function doDecrypt (pwd, onError) {console.log('in doDecrypt');const txt = document.getElementById('enc_content').innerHTML;let plantext;try {const bytes = CryptoJS.AES.decrypt(txt, pwd);var plaintext = bytes.toString(CryptoJS.enc.Utf8);} catch(err) {if(onError) {onError(err);}return;}document.getElementById('enc_content').innerHTML = plaintext;document.getElementById('enc_content').style.display = 'block';document.getElementById('enc_passwd').style.display = 'none';if(typeof MathJax !== 'undefined') {MathJax.Hub.Queue(['resetEquationNumbers', MathJax.InputJax.TeX],['PreProcess', MathJax.Hub],['Reprocess', MathJax.Hub]);}}</script><div id="enc_content" style="display:none">U2FsdGVkX1/EHWWqoOvqoWrKKl3lxpFI00xPmN4yshVpDuFeP5qaTfKNR+CUjRp94jKSQIqf3o4cmWfRmkB3a2iCa/3NSAzEF26xbBzw7TjAUxivmXeLSDsOCG2w17V2Ad+gUm9BvwmefXJl6qaCYuzF2hTaH91uKJrwhgYw6cu+jYTbHRm5HcwH4Be5tRu0Ohdl1G10JgvueUT4LJmto3f9RByYeNSQGMiaElDgP6Ute8LAG8AyhcMuJ/p4SMGa2N8jm8rqyhYPguvFlXdnogjIsJ+ardiMmiv5G100GD4bBN7pggv9MT+MqWlfopCKhZSUvKox9GlWEq0k66al5QGihNFxdpkbK2KGERpkl65f4azD7lU8feoUpl4Ffhcj9fIOLAQdE4v4iNx4J0K5em6OQbwmBiZCKhzGvg+ibpnl56dxA2dYnmpmeDpNceox4it5/UENlpzZBQJUS+v3iRRG6RMJrkhlap3nzGVHurMARyseHPo48IkWA1o4zxmOz3/8rHR13B0gb4YpW0GKofhAXxyY5686RAG5aanuiuhw3gfgXfP/gG6MSw+iZ6uqKiRVg4vYuh4tg07LHQEUqN4N4Occwn4AlsPTslNK/EjUwjlNJET8U9/K0quW66EuHRXzS21Wpav6md9PywQ5FtXFCGsDfF6dv8oAuQuw/fZo+5f6plRPDo0xehO00Q/QqsH3IT7qW8iRTGWDxVe36BF8m08PlGHlhpY4mpAHXPr/eTgK4prhVjRXCr251XICgFzgsMbMve1bau3bBjSNQpr2eO+ZwOkCEfulilGQt2vKlpnT4666cvrOEfPPNySKKkW4XZ6388wEBonvgUDNpWDA33I9dXZQzIQlPAIvKuyzcZmQAa93h6uolRvqpVf4Pxv5u8FGNi4TuadsS41cCvMi9BDTTx/iQrH50NMpSfU6j5Uc6r6//GicFBvlO7w9jWV5RKUgkxwlV8n1ZMqdypj2gGvw0W5b9ryIDyggC4UznvuduwCQpBE9xHoTuvdzZ6uUzQMqXYRAF4pKBakGNaHooImUaRMIcKBOp94IPX8Hzthjy1Gf05jDQ95GjZeWddPL3YPq78vqz4qepCTPgQ8EloCKYTDb9DENeIR7yWDslVIrFRfqP6oh0yOURaV2rtxtuCFRTYpGu1iniFaGKTu1ZoXhVXArEtygeBgQQr/yKD2ln5dY2DqWYdqt6dqlb3P0VKNANJWMyi/qiyaZd3KTbX93f2rA+ftpkidrVi8rduq9zR/rgfdA5Io3wbyUPQZRlhPGJxbYXc2uwMJ6rzcpJ74Ccj4gD9La+gkjmGBjFeq2PF0YUeN6m+uiEAgFkPtGUv6vQM4getgbapOwDUiXL3Y272KCPNn0pfBsvs0k/x2Zo+sA23bXcXTA90/ZsrVzJTeOZ/k6QdkSZPoFL+D0HwxAeHo3417cB3dbClXFt3R7M0rHsAAoVdXn0VEGmHj7lKPTlHjVIxMMtPV56nX6b0h8zhCEamhRdgDNUBOb2Gs6vyK4kXM4Mc19nuLk0UWXQJdx2Oq/V7Fm5ouRSAwWpKcsyOxj0PBM2EWV/sa8+6moGkL1AMjJsBKB0bTWRsS11q6J4OxiKLoGN7DFLDwz0QnbNiu6ISxtjiGk0qBV1M53dODUXH7bdBi5HmqpCofuJdheaueULO9YmL8QoYc9sEkPsEeiUAFM+XIC1uiBzkh83KOhnimkG+J93ld8pDQkjS+oSpGMgQ2I6ZTMvpNvQLpnIolJEZZCxIOH75HAekXYTIpy20NxNkS/W9rEYIo6OzJ3RI05GfATe8riTbeXt8i6frmsMlz4vjXAZzvqqiZcPGZ5dy2RE4vYSlM7gSqUXmP9q+8VYp7oQuuP12VK8i0csF+ScoKj6XKKUzlh69DZIhnUKrqrMpVGeJmE/6EBf4LRs64KnKDKZgJdJdtSnvoSPqdqRPpEnVeUMs0=</div><div id="enc_passwd"> <input id="enc_pwd_input" type="password" style="border-radius: 5px;border-style: groove;height: 30px;width: 50%;cursor: auto;font-size: 102%;color: currentColor;outline: none;text-overflow: initial;padding-left: 5px;" onkeydown="if (event.keyCode == 13) { decrypt(); return false;}"> <input type="submit" value="解&nbsp;密" onclick="decrypt()" style="width: 58px;height: 34px;border-radius: 5px;background-color: white;border-style: solid;color: currentColor;"><div id="enc_error" style="display: inline-block;color: #d84527;margin-left: 10px"></div><script>var onError = function(error) {document.getElementById("enc_error").innerHTML = "password error!"};function decrypt() {var passwd = document.getElementById("enc_pwd_input").value;console.log(passwd);doDecrypt(passwd, onError);}</script></div>]]></content>
       
       
       <categories>
