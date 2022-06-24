@@ -2,6 +2,133 @@
 <search> 
   
   
+    
+    <entry>
+      <title>2022年天津中考数学第18题</title>
+      <link href="/posts/b77671de/"/>
+      <url>/posts/b77671de/</url>
+      
+        <content type="html"><![CDATA[<p>yysy<br>今年的网格比去年简单太多了(来自去年考生的哀嚎)<br>下面就稍微提供一些参考思路吧<br>题目如下</p><img src="/posts/b77671de/1.jpg" class="" title="题目"><p>首先，我们先大概画个示意图观察一下</p><img src="/posts/b77671de/2.jpg" class="" title="示意图"><p>很显然，三角形BMN是等腰直，那么进而可以联想到“手拉手”模型，也就是说，我们需要再构造一个等腰直。考虑到要尽量和现有的线有关系，可以连接BF，形成的三角形BFN是一个直角三角形，方便后续找M点时画出FN的对应线段</p><img src="/posts/b77671de/3.jpg" class="" title="连接BF"><p>找到F的对应点，记为G</p><img src="/posts/b77671de/4.jpg" class="" title="找到点G"><p>此时可以发现BG垂直于GM，而M又在射线PD上，所以只需找到过G且与BG垂直的线段，与PD的交点即为M<br>连接EG交PD于M</p><img src="/posts/b77671de/5.jpg" class="" title="连接EG"><p>这时M已经找到，只需要找出N的位置。题目中的圆还没有用过，所以圆肯定与N点位置的确定有关</p><img src="/posts/b77671de/6.jpg" class="" title="确定点N"><p>分别设BM、BN交圆与点R、Q，角RBQ为直角，因为直角所对的弦为直径，即RQ为直径，而R已知，所以只需找到圆心O即可确定点Q位置，进而找到点N<br>连接AC交格线于点O，连接RO并延长交圆于点Q，连接BQ并延长，交EF于点N，即为所求<br>下面是擦掉了多余线段的作图</p><img src="/posts/b77671de/7.jpg" class="" title="答案"><p>作图语言：取格点G，连接EG交射线PD于点M，连接AC交格线于点O，则点O为圆心，连接BM交圆O于点R，连接RO并延长，交圆O于点Q，连接BQ并延长，交射线PF于点N，则点M、N即为所求<br>感谢阅读，预祝各位考生取得圆满成功</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 天津 </tag>
+            
+            <tag> 中考 </tag>
+            
+            <tag> 数学 </tag>
+            
+            <tag> 网格题 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>2018---2022</title>
+      <link href="/posts/6bf7281a/"/>
+      <url>/posts/6bf7281a/</url>
+      
+        <content type="html"><![CDATA[<img src="/posts/6bf7281a/2019.jpg" class="" width="2019"><img src="/posts/6bf7281a/2022.jpg" class="" width="2022"><p>同时为了防止我不小心删掉(毕竟现在只有我有了)，下面是一份聊天记录的备份。不全，从2019的暑假开始的，不过也足够了<br><a href="https://wwz.lanzouh.com/b02v8h8sf">下载链接</a><br>提取密码和解压密码都是群里最后一条消息的发送时间(格式样例:20060629)<br>因为蓝奏云的上传大小和格式限制，采用分卷压缩，下载后请将所有文件重命名<br>例如<code>1-001.zip</code>–&gt;<code>1.zip.001</code></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 杂谈 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 初中 </tag>
+            
+            <tag> 友情 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>为你的blog添加sitemap并上传至百度和谷歌，使网站被搜索引擎收录</title>
+      <link href="/posts/f9f28280/"/>
+      <url>/posts/f9f28280/</url>
+      
+        <content type="html"><![CDATA[<h1 id="生成站点地图-sitemap"><a href="#生成站点地图-sitemap" class="headerlink" title="生成站点地图(sitemap)"></a>生成站点地图(sitemap)</h1><h2 id="安装对应插件"><a href="#安装对应插件" class="headerlink" title="安装对应插件"></a>安装对应插件</h2><p>下面两个插件中第一个生成谷歌(其它应该也行，但是没试过，百度实测失败)sitemap，第二个生成百度sitemap</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-sitemap --save</span><br><span class="line">npm install hexo-generator-baidu-sitemap--save</span><br></pre></td></tr></table></figure><h2 id="编辑配置文件"><a href="#编辑配置文件" class="headerlink" title="编辑配置文件"></a>编辑配置文件</h2><p>打开根目录下的<code>_config.yml</code>(注意是根目录下的，不是主题的)，添加以下内容</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">plugins:</span><br><span class="line">- hexo-generator-baidu-sitemap</span><br><span class="line">- hexo-generator-sitemap</span><br><span class="line">baidusitemap:</span><br><span class="line">  path: baidusitemap.xml</span><br><span class="line">sitemap:</span><br><span class="line">  path: sitemap.xml</span><br></pre></td></tr></table></figure><h1 id="验证网站所有权"><a href="#验证网站所有权" class="headerlink" title="验证网站所有权"></a>验证网站所有权</h1><h2 id="百度"><a href="#百度" class="headerlink" title="百度"></a>百度</h2><p>打开<a href="https://ziyuan.baidu.com/">百度搜索资源平台</a>，登录，点击<code>用户中心-站点管理</code>，点击<code>添加网站</code>，如下图</p><img src="/posts/f9f28280/1.png" class="" title="用户中心-站点管理"><img src="/posts/f9f28280/2.png" class="" title="添加网站"><p>协议头取决于你自己的网站，比如你的地址是<code>http://yoursite.com</code>，就选择<code>http://</code>,如果是<code>https://yoursite.com</code>就选择<code>https://</code>，后面填写<code>yoursite.com</code>，下面以gitpage为例</p><p>协议头选择https:&#x2F;&#x2F;，后面填写<code>你的github账号名.github.io</code></p><p>站点领域选择你网站对应的领域即可</p><p>验证网站建议选择HTML标签验证，<strong>注意</strong>，不要选择文件验证，因为hexo会自动将验证用的html文件模板化，导致无法识别</p><p>编辑主题文件下的<code>_config.yml</code>(以next主题为例)，找到如下语句</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># Google Webmaster tools verification setting</span><br><span class="line"># See: https://www.google.com/webmasters/</span><br><span class="line">google_site_verification:</span><br><span class="line"># Baidu Webmaster tools verification</span><br><span class="line">#See: https://ziyuan.baidu.com/site</span><br><span class="line">baidu_site_verification:</span><br></pre></td></tr></table></figure><p>有些情况下配置文件中并没有百度相关的语句，请自行添加，同时不要忘记删除<code>google_site_verification:</code>前的”#”来使配置生效</p><p>请注意，有些教程中提到直接修改<code>themes/next/layout/_partials/head.swig</code>，但这样会让后续版本更新变得异常艰难，因此，请采用上述修改主题config文件的方法。此外，还有一些教程中提到将<code>google_site_verification:</code>和<code>baidu_site_verification:</code>后写上<code>true</code>，但请观察<code>head.swig</code>中的源代码</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% if theme.google_site_verification %&#125;</span><br><span class="line">  &lt;meta name=&quot;google-site-verification&quot; content=&quot;&#123;&#123; theme.google_site_verification &#125;&#125;&quot; /&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure><p>其中<code>content=&quot;&#123;&#123; theme.google_site_verification &#125;&#125;&quot;</code>部分代表此处会引用主题配置文件中的<code>google_site_verification</code>部分，因此请将百度提供的代码<code>&lt;meta name=&quot;baidu-site-verification&quot; content=&quot;code-YUapf64deN&quot; /&gt;</code>中<code>content</code>后面的内容，即<code>code-YUapf64deN</code>复制到主题配置文件中的<code>baidu_site_verification:</code>后，请勿在后面填入<code>true</code>或直接将<code>&lt;meta name=&quot;baidu-site-verification&quot; content=&quot;code-YUapf64deN&quot; /&gt;</code>复制在后面</p><h2 id="谷歌"><a href="#谷歌" class="headerlink" title="谷歌"></a>谷歌</h2><p>打开<a href="https://search.google.com/search-console/about">google search console</a>(国内需要科学上网)，点击<code>立即使用</code>，此时如果没有谷歌账号请先按照引导注册</p><img src="/posts/f9f28280/3.png" class="" title="立即使用"><p>然后点击<code>添加资源</code>，在弹出的界面中选择<code>网址前缀</code></p><img src="/posts/f9f28280/4.png" class="" title="网址前缀"><p>输入你的网址，例如<code>https://jackylee06.github.io</code>，注意区分<code>http://</code>与<code>https://</code><br>接着，在<code>验证所有权</code>窗口中，无视推荐的文件验证，使用HTML标记，同样将<code>&lt;meta name=&quot;google-site-verification&quot; content=&quot;syqeVbqxUiswCjCb7yWFiN_tsSv_6oU1L2w1PYQdnW8&quot; /&gt;</code>中<code>content</code>后的内容，即<code>syqeVbqxUiswCjCb7yWFiN_tsSv_6oU1L2w1PYQdnW8</code>复制到主题配置文件中<code>google_site_verification:</code>后，同时不要忘记删除<code>google_site_verification:</code>前的”#”来使配置生效</p><img src="/posts/f9f28280/5.png" class="" title="验证所有权"><h1 id="添加sitemap"><a href="#添加sitemap" class="headerlink" title="添加sitemap"></a>添加sitemap</h1><h2 id="百度-1"><a href="#百度-1" class="headerlink" title="百度"></a>百度</h2><p>在<a href="https://ziyuan.baidu.com/">百度搜索资源平台</a>，点击<code>搜索服务-普通收录</code></p><img src="/posts/f9f28280/6.png" class="" title="搜索服务-普通收录"><p>点击<code>资源提交</code>中的<code>sitemap</code>选项，填入sitemap地址，<strong>注意一定要用百度sitemap插件生成的sitemap</strong>，即<code>你的网站/baidusitemap.xml</code>,不要输入<code>你的网站/sitemap.xml</code>，因为GitHub屏蔽了百度的爬虫，导致无法抓取</p><img src="/posts/f9f28280/7.png" class="" title="百度sitemap"><h2 id="谷歌-1"><a href="#谷歌-1" class="headerlink" title="谷歌"></a>谷歌</h2><p>在<a href="https://search.google.com/search-console/about">google search console</a>中，点击<code>站点地图</code>选项卡，在<code>添加新的站点地图</code>中输入<code>sitemap.xml</code>即可</p><img src="/posts/f9f28280/8.png" class="" title="google sitemap"><h2 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h2><p>未完待续</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 建站 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 建站 </tag>
+            
+            <tag> 站点地图 </tag>
+            
+            <tag> sitemap </tag>
+            
+            <tag> seo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>test</title>
+      <link href="/posts/d87f7e0c/"/>
+      <url>/posts/d87f7e0c/</url>
+      
+        <content type="html"><![CDATA[<script src=/js/crypto-js.js></script><script>function doDecrypt (pwd, onError) {console.log('in doDecrypt');const txt = document.getElementById('enc_content').innerHTML;let plantext;try {const bytes = CryptoJS.AES.decrypt(txt, pwd);var plaintext = bytes.toString(CryptoJS.enc.Utf8);} catch(err) {if(onError) {onError(err);}return;}document.getElementById('enc_content').innerHTML = plaintext;document.getElementById('enc_content').style.display = 'block';document.getElementById('enc_passwd').style.display = 'none';if(typeof MathJax !== 'undefined') {MathJax.Hub.Queue(['resetEquationNumbers', MathJax.InputJax.TeX],['PreProcess', MathJax.Hub],['Reprocess', MathJax.Hub]);}}</script><div id="enc_content" style="display:none">U2FsdGVkX19Eyx0mXvPkquc7zTmFPuoaLpWJtIxgl0wZqVlaOpFLDb96864KfDIfX2zjsxPKkIv/cSbSfu1Pc9b5JifIkJszP3/eefATsJh9rrx4L62RjRriP2oG7jO/jM7jRf2FFEcjcdDHUcircjBXCQrxVojRFM7f4K21NlCKmo/vLrARp3q9L/m9HGWNdRGmpxQXiOcofBBNsmYuKym746c01bKqNi6qyR7KsnwfrKTEdhooePlLBCZOeEzYfvJSqbaRVmKUoAkcv+iDqv8Ds0671+kmatijmAIKYyf6StMvFSVMGrD3A0KXCehByK8ZV1qd7DovCo9TiLz0krrLrT9VuKVhcn1aalqYOZRo5pIlCnXfryrZJdCcfwFiEdBhemvJmmmN4PIbFyvI2e8TDwIMzPc6xeoCyiKYsgDXXGDNPcb0FJpKcfNoXo2BOnH6D2xatPfGQSm7GfBQN/3a2kjH4t1KpOPvDp+PynfxuH94DmCjygehjSwVhji2r1gJ2AgeoSwCn1+mAN7vUIJggB5a5Q//wmcogS0ngUKnQ6d1ADK5b688bo0cEd71x6o/xXLG+oCJDyowNVs6LPlnAB8UNAUkN6xKDx7gxj1eEfSQqi8Lu36ezq+Vo9AkKEkXTseLSogiAR24b5q1DR7XMOKACIBkq8U3mwZ5zskfWwn2ekJCoWtnmLmbUCQN74rKyTkxDu2SCWHkaODIUEC22LwjGUHNVCZF8N2zYuFo2uIxhbBCNZjEwfysZGvPo8NXvmi02NDl3dTMQEAFA+JFJC8DsK0I3Q5CdI7YndzJioGVm3kvHEbL4K7zJMPzHIbmOvmNHRcJ4R8tcRz+2hTm+f07JIloQ2IsmWfMZJ/8Idqxh/p0uwJdMD9n26cjSAH3s9xwzppR7k5OPr5HZmXCUYfqOYrN5BOmZlmuDK2R55tVpZh/Qv2GDM3MiIvmy99LLORnqCrm2GHOgWdXOEVmdiOICbckkgosurtJtZo5wPo7yzTGPr9OrF168O7ScQWwbjkVkI7Pr8Vz/5fE1zIsumUR4L3ze2UggA6s2IaIJRcnuKk5VyE0QPh4Noa9FQjCa54gaUR42H+OXyYzXvQWFb4Hr839+sPeAQvvA45wb6SpCGUNGfMocY9HiXwaOtDmiNBDhciyMoeIyw9i82tTbRyu8MQV5j0j9LnMbiP5cZ5ZAzUp+9T0XjkkP/qyTCIcSYdEUFXflUUPUPJ5C/3bcP50B9nqU9QJAVUBQ/fH4mLD0wW1l0ELcdnyePNNbktvRn9aZeMyMFFPgV/B5v78y5qKqQT24grXMg4KlWLRfbxXwoJn3xdAE12ol6XzCyTc2fWOfhwHbMDmz9yjv9A7pA0P6aqxM8Ug4ViaJ+hB+Dm3wP1STwXbyiPMx5D5Mg9FH9OeRmauD5yyFY7J9cHnmV6pJum9P5W8e3s2g8syhVFEARyN11cmMcE7UjxvHkFRwlkMv13hZdVPvoWi+iFZtbfar88QOyyYKwEMWMfTyZ9ABlfyQ6c2M16qMhd0sOQKDOmnVlUViWeDCkf4MrD6tApjwpxgyxvL0tft3G966M6q2HXkq2SB+v1iN4NsMLk6Ur15v9rlffLCro4Z5fTc1O+x55mkDANvpYv+oZxdmYuDxu3yRbb8sWE0csD0PCQs+5fF2GJhtC+OzFVZTzBGVHedOQVg23QxjWNp43AaLe0e60EGKH/Be9y2wY/lHmuUUwSZENsapERaBcf1X7f9prdneab9TqOnoqn0hw81+Z4xcqQSu3Do++St6Ln/TPniPz3nXXKrnXvwZ5R0Kiq5my85WPHu9MDIt3wID5rLSIBAaLObiGr3NZi0mzp7SbapxgBsRG7WjiercFNAzz2NDwJYRG/IoE6Rx3v1xAjsXv5MK41pbizdX5Xe8VuaWDGfPN3QWvpZd6CAKwlRkrI2xZUzKTHvRb0fGa9atBw=</div><div id="enc_passwd"> <input id="enc_pwd_input" type="password" style="border-radius: 5px;border-style: groove;height: 30px;width: 50%;cursor: auto;font-size: 102%;color: currentColor;outline: none;text-overflow: initial;padding-left: 5px;" onkeydown="if (event.keyCode == 13) { decrypt(); return false;}"> <input type="submit" value="解&nbsp;密" onclick="decrypt()" style="width: 58px;height: 34px;border-radius: 5px;background-color: white;border-style: solid;color: currentColor;"><div id="enc_error" style="display: inline-block;color: #d84527;margin-left: 10px"></div><script>var onError = function(error) {document.getElementById("enc_error").innerHTML = "password error!"};function decrypt() {var passwd = document.getElementById("enc_pwd_input").value;console.log(passwd);doDecrypt(passwd, onError);}</script></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> categories </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 测试 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/posts/4a17b156/"/>
+      <url>/posts/4a17b156/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
   
   
 </search>
